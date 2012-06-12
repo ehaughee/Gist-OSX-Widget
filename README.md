@@ -6,6 +6,12 @@ This is an OS X widget that will take the contents of your clipboard, create a g
 
 ![Screenshot 2](http://f.cl.ly/items/1w292H1X3R1j3j3A3E1O/Screen%20Shot%202012-06-12%20at%204.40.12%20PM.png)
 
+## Usage
+* Copy some text
+* On the widget (in your dashboard) click Create Gist
+* You should see some status messages that end with "Link in clipboard"
+* Paste the link
+
 ## Todo
 * Syntax selection
 * Authorization option (gists are currently created as Anonymous)
