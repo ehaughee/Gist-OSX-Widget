@@ -11,3 +11,6 @@ This is an OS X widget that will take the contents of your clipboard, create a g
 * Authorization option (gists are currently created as Anonymous)
   * Currently the back has UI elements but they are not wired up
 * Maybe add the option to set a filename and description, but probably not
+
+## Attribution
+The octocat icon was taken without permission from: http://ericjankowski.com/index.php.  I plan on asking permission but in the mean time I am providing a source since this is a public repository.  Maybe this should go in TODO.
