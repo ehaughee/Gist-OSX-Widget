@@ -3,9 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>Breakpoints</key>
-	<dict/>
+	<dict>
+		<key>widget.wdgt/main.js:187</key>
+		<string>xmlLoaded</string>
+		<key>widget.wdgt/main.js:81</key>
+		<string>authorize</string>
+	</dict>
 	<key>CYLastWindowPosition</key>
-	<string>{410, 301}</string>
+	<string>{475, 520}</string>
 	<key>ContentSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -16,12 +21,12 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {759, 299}}</string>
-			<string>{{0, 309}, {759, 327}}</string>
+			<string>{{0, 0}, {790, 145}}</string>
+			<string>{{0, 155}, {790, 517}}</string>
 		</array>
 	</dict>
 	<key>ContentViewType</key>
-	<integer>2</integer>
+	<integer>0</integer>
 	<key>DeploymentOptions</key>
 	<dict>
 		<key>Destination</key>
@@ -44,31 +49,31 @@
 	<key>Design time language</key>
 	<string>en.lproj</string>
 	<key>EvaluatorFrame</key>
-	<string>2 -1 494 234 0 0 1280 778 </string>
+	<string>536 544 494 234 0 0 1280 778 </string>
 	<key>MainSplitViewGeometry</key>
 	<dict>
 		<key>_indexOfCollapsedView</key>
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {244, 657}}</string>
-			<string>{{245, 0}, {760, 657}}</string>
+			<string>{{0, 0}, {170, 693}}</string>
+			<string>{{171, 0}, {791, 693}}</string>
 		</array>
 	</dict>
 	<key>MainWindowFrame</key>
-	<string>0 100 1004 678 0 0 1280 778 </string>
+	<string>1 64 961 714 0 0 1280 778 </string>
 	<key>NavigatorSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
-		<integer>9</integer>
+		<integer>5</integer>
 		<key>SplitViewConfig</key>
 		<integer>3</integer>
 		<key>_indexOfCollapsedView</key>
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {246, 301}}</string>
-			<string>{{0, 311}, {246, 325}}</string>
+			<string>{{0, 0}, {172, 318}}</string>
+			<string>{{0, 328}, {172, 344}}</string>
 		</array>
 	</dict>
 	<key>Widget</key>
@@ -90,14 +95,16 @@
 		<key>Objects view last selections</key>
 		<array>
 			<array>
-				<integer>2</integer>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>0</integer>
 			</array>
 		</array>
 		<key>Opened Steps</key>
 		<array/>
 		<key>Visible StackLayout Views</key>
 		<array>
-			<string>front</string>
+			<string>back</string>
 		</array>
 	</dict>
 </dict>

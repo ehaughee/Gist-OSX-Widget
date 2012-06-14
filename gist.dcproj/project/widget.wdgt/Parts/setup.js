@@ -7,10 +7,17 @@
 var dashcodePartSpecs = {
     "done": { "creationFunction": "CreateGlassButton", "onclick": "showFront", "text": "Done" },
     "info": { "backgroundStyle": "black", "creationFunction": "CreateInfoButton", "foregroundStyle": "white", "frontID": "front", "onclick": "showBack" },
-    "login": { "creationFunction": "CreateButton", "leftImageWidth": 5, "rightImageWidth": 5, "text": "Login" },
+    "language": { "creationFunction": "CreatePopupButton", "leftImageWidth": 5, "name": "langSelect", "onchange": "setLang", "options": ["Lang", ["Ruby", ".rb"], ["Python", ".py"], ["PHP", ".php"], ["HTML", ".html"]], "rightImageWidth": 16 },
+    "login": { "creationFunction": "CreateButton", "leftImageWidth": 5, "onclick": "authorize", "rightImageWidth": 5, "text": "Login" },
+    "pwordReq": { "text": "* Required", "view": "DC.Text" },
     "send": { "creationFunction": "CreateButton", "leftImageWidth": 5, "onclick": "send", "rightImageWidth": 5, "text": "Create Gist" },
     "statustext": { "view": "DC.Text" },
     "text1": { "text": "Username", "view": "DC.Text" },
-    "text2": { "text": "Password", "view": "DC.Text" }
+    "text2": { "text": "Password", "view": "DC.Text" },
+    "unameReq": { "text": "* Required", "view": "DC.Text" }
 };
+
+
+
+
 
