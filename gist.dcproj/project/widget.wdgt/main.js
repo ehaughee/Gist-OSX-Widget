@@ -78,7 +78,8 @@ var Base64 = {
 //
 
 function authorize(event) {
-    login.innerText = "Working";
+    backstatus.value = "Working";
+    login.object.setEnabled(false);
     
     var missing = false;
     
@@ -114,13 +115,16 @@ function authorize(event) {
             // User is unauthorized
             console.log(xmlRequest.status + ": " + xmlRequest.responseText);
 
-            login.innerText = "Invalid";
-            setTimeout('login.innerText \= \"Login\";',2000);
+            backstatus.value = "Invalid";
+            login.object.setEnabled(true);
+            setTimeout('backstatus.value \= \"\";', 4000);
         }
         else {
             // User was successfully authed, store credentials
             widget.setPreferenceForKey(header, widget.identifier + "-auth");
-            login.innerText = "Login";
+            backstatus.value = "Login";
+            login.object.setEnabled(true);
+            setTimeout('backstatus.value \= \"\";', 4000);
             // Display success message
         }
     }
@@ -287,8 +291,6 @@ function showBack(event)
 {
     unameReq.style.display = "none";
     pwordReq.style.display = "none";
-    widget.setPreferenceForKey(undefined, widget.identifier + "-ext")
-    language.object.setSelectedIndex(0);
     
     var front = document.getElementById("front");
     var back = document.getElementById("back");

@@ -165,9 +165,9 @@ body {
     right: auto;
     margin-top: 0px;
     width: 129px;
-    top: 46px;
     left: 88px;
-    bottom: 48px;
+    top: 44px;
+    bottom: 45px;
     height: auto;
 }
 
@@ -240,8 +240,29 @@ body {
     position: absolute;
     right: auto;
     margin-top: 0px;
-    top: 84px;
-    left: 27px;
-    bottom: 21px;
+    top: 18px;
+    left: 219px;
+    bottom: 87px;
     height: auto;
+}
+
+#backstatus {
+    font-size: 13px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    left: 19px;
+    min-height: 16px;
+    top: 84px;
+    right: 211px;
+    width: auto;
+    bottom: 25px;
+    height: auto;
+}
+
+.selected #backstatus {
+    color: white;
 }

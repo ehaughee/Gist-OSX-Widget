@@ -3,14 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>Breakpoints</key>
-	<dict>
-		<key>widget.wdgt/main.js:187</key>
-		<string>xmlLoaded</string>
-		<key>widget.wdgt/main.js:81</key>
-		<string>authorize</string>
-	</dict>
+	<dict/>
 	<key>CYLastWindowPosition</key>
-	<string>{475, 520}</string>
+	<string>{410, 447}</string>
 	<key>ContentSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
