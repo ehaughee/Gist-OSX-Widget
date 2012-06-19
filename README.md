@@ -10,7 +10,7 @@ This is an OS X widget that will take the contents of your clipboard, create a g
 ![Screenshot](http://f.cl.ly/items/0F42063X0s2z1D3z042D/Screen%20Shot%202012-06-19%20at%2011.04.57%20AM.png)
 
 
-![Screenshot 2](http://f.cl.ly/items/0F42063X0s2z1D3z042D/Screen%20Shot%202012-06-19%20at%2011.04.57%20AM.png)
+![Screenshot 2](http://f.cl.ly/items/1p35132i3d09133v0K24/Screen%20Shot%202012-06-19%20at%2011.05.46%20AM.png)
 
 [Download](https://github.com/downloads/ehaughee/Gist-OSX-Widget/Gist%20Paster.zip)
 
