@@ -17,7 +17,7 @@ This is an OS X widget that will take the contents of your clipboard, create a g
 ## Anonymous gist Usage
 * Copy some text
 * On the widget (in your dashboard) click Create Gist
-* You should see some status messages that end with "Link in clipboard"
+* You should see some status messages that ends with "Link in clipboard"
 * Paste the link
 
 ## Authenticated gist Usage
@@ -32,7 +32,7 @@ This is an OS X widget that will take the contents of your clipboard, create a g
 * Paste the link
 
 ## Todo
-* More syntax selection languages
+* More syntax language selections
 * Maybe add the option to set a filename and description, but probably not
 
 ## Attribution
