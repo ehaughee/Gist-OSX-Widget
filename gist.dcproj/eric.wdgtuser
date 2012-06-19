@@ -30,6 +30,8 @@
 		<string>injection@gmail.com</string>
 		<key>Path</key>
 		<string>gist</string>
+		<key>Save</key>
+		<true/>
 		<key>SavePath</key>
 		<string>/Users/eric/Desktop</string>
 		<key>WidgetCompatibilityTag</key>
@@ -97,7 +99,7 @@
 		<array/>
 		<key>Visible StackLayout Views</key>
 		<array>
-			<string>back</string>
+			<string>front</string>
 		</array>
 	</dict>
 </dict>
