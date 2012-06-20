@@ -78,7 +78,7 @@ var Base64 = {
 //
 
 function authorize(event) {
-    backstatus.value = "Working";
+    backstatus.innerText = "Working";
     login.object.setEnabled(false);
     
     var missing = false;
@@ -115,16 +115,16 @@ function authorize(event) {
             // User is unauthorized
             console.log(xmlRequest.status + ": " + xmlRequest.responseText);
 
-            backstatus.value = "Invalid";
+            backstatus.innerText = "Invalid";
             login.object.setEnabled(true);
-            setTimeout('backstatus.value \= \"\";', 4000);
+            setTimeout('backstatus.innerText \= \"\";', 4000);
         }
         else {
             // User was successfully authed, store credentials
             widget.setPreferenceForKey(header, widget.identifier + "-auth");
-            backstatus.value = "Login";
+            backstatus.innerText = "Logged In";
             login.object.setEnabled(true);
-            setTimeout('backstatus.value \= \"\";', 4000);
+            setTimeout('backstatus.innerText \= \"\";', 4000);
             // Display success message
         }
     }
