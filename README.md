@@ -1,24 +1,38 @@
-# Gist OS X Widget (or Gist Paster) Alpha v0.1
+# Gist OS X Widget (or Gist Paster) Alpha v0.2
 This is an OS X widget that will take the contents of your clipboard, create a gist, and then place the relevant gist url in your clipboard.
 
+## New to v0.2
+* Ability to authenticate for gists so they are created under your account
+ * The UI for this needs a lot of work
+* Ability to select from Ruby, Python, PHP, HTML syntaxes
+ * Super easy to add more languages, just haven't yet.
 
-![Screenshot](http://f.cl.ly/items/3N0X432a4015030g0T3Q/Screen%20Shot%202012-06-12%20at%204.32.43%20PM.png)
+![Screenshot](http://f.cl.ly/items/0F42063X0s2z1D3z042D/Screen%20Shot%202012-06-19%20at%2011.04.57%20AM.png)
 
 
-![Screenshot 2](http://f.cl.ly/items/1w292H1X3R1j3j3A3E1O/Screen%20Shot%202012-06-12%20at%204.40.12%20PM.png)
+![Screenshot 2](http://f.cl.ly/items/1p35132i3d09133v0K24/Screen%20Shot%202012-06-19%20at%2011.05.46%20AM.png)
 
-[Download](https://github.com/downloads/ehaughee/Gist-OSX-Widget/Gist%20Paster.zip)
+[Download](https://github.com/ehaughee/Gist-OSX-Widget/downloads)
 
-## Usage
+## Anonymous gist Usage
 * Copy some text
 * On the widget (in your dashboard) click Create Gist
-* You should see some status messages that end with "Link in clipboard"
+* You should see some status messages that ends with "Link in clipboard"
+* Paste the link
+
+## Authenticated gist Usage
+* Copy some text
+* On the widget, click the i in the bottom right hand corner
+* On the back of the widget, type in your username and password then click login
+* Wait for the status text to say "Success"
+* Click done
+* Select your syntax from the "Lang" dropdown if you wish
+* Click Create Gist
+* Wait until you see "Link in clipboard"
 * Paste the link
 
 ## Todo
-* Syntax selection
-* Authorization option (gists are currently created as Anonymous)
-  * Currently the back has UI elements but they are not wired up
+* More syntax language selections
 * Maybe add the option to set a filename and description, but probably not
 
 ## Attribution
