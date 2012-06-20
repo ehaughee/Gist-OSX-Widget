@@ -21,7 +21,7 @@
 		</array>
 	</dict>
 	<key>ContentViewType</key>
-	<integer>0</integer>
+	<integer>5</integer>
 	<key>DeploymentOptions</key>
 	<dict>
 		<key>Destination</key>
@@ -33,7 +33,7 @@
 		<key>Save</key>
 		<true/>
 		<key>SavePath</key>
-		<string>/Users/eric/Desktop</string>
+		<string>/Users/eric/Documents/Projects/Gist Widget/github resources</string>
 		<key>WidgetCompatibilityTag</key>
 		<integer>0</integer>
 		<key>WidgetDeployName</key>
@@ -92,7 +92,7 @@
 		<key>Objects view last selections</key>
 		<array>
 			<array>
-				<integer>0</integer>
+				<integer>5</integer>
 			</array>
 		</array>
 		<key>Opened Steps</key>
