@@ -1,10 +1,14 @@
-# Gist OS X Widget (or Gist Paster) Alpha v0.2
+# Gist OS X Widget (or Gist Paster) Alpha v0.2.1
 This is an OS X widget that will take the contents of your clipboard, create a gist, and then place the relevant gist url in your clipboard.
 
+## New to v0.2.1
+* [bugfix] The login function now tells you success or failure like it is supposed to.
+* [feature] Added JavaScript, C, and C++ languages to the Lang selector
+
 ## New to v0.2
-* Ability to authenticate for gists so they are created under your account
+* [feature] Ability to authenticate for gists so they are created under your account
  * The UI for this needs a lot of work
-* Ability to select from Ruby, Python, PHP, HTML syntaxes
+* [feature] Ability to select from Ruby, Python, PHP, HTML syntaxes
  * Super easy to add more languages, just haven't yet.
 
 ![Screenshot](http://f.cl.ly/items/0F42063X0s2z1D3z042D/Screen%20Shot%202012-06-19%20at%2011.04.57%20AM.png)
