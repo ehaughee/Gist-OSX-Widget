@@ -78,9 +78,6 @@ var Base64 = {
 //
 
 function authorize(event) {
-    backstatus.innerText = "Working";
-    login.object.setEnabled(false);
-    
     var missing = false;
     
     if (username.value === '') {
@@ -103,6 +100,9 @@ function authorize(event) {
         return;
     }
     
+    backstatus.innerText = "Working";
+    login.object.setEnabled(false);
+    
     var header        = "Basic " + Base64.encode(username.value + ":" + password.value);
     var URL           = "https://api.github.com";
     var xmlRequest    = new XMLHttpRequest();
@@ -115,20 +115,52 @@ function authorize(event) {
             // User is unauthorized
             console.log(xmlRequest.status + ": " + xmlRequest.responseText);
 
-            backstatus.innerText = "Invalid";
+            var user = document.getElementById("user");
+            user.innerText = "";
+            
             login.object.setEnabled(true);
+            backstatus.innerText = "Invalid";
             setTimeout('backstatus.innerText \= \"\";', 4000);
         }
         else {
             // User was successfully authed, store credentials
+            console.log(xmlRequest.status + ": " + xmlRequest.responseText);
+
+            var user = document.getElementById("user");
+            user.innerText = username.value;
+
             widget.setPreferenceForKey(header, widget.identifier + "-auth");
-            backstatus.innerText = "Logged In";
+
             login.object.setEnabled(true);
+            backstatus.innerText = "Logged In";
             setTimeout('backstatus.innerText \= \"\";', 4000);
-            // Display success message
+
+            // Hide login, show logout buttons
+            logout.style.display = "inherit";
+            login.style.display = "none";
         }
     }
     xmlRequest.send();
+}
+
+function deauthorize() {
+    // Hide logout, show login buttons
+    login.style.display = "inherit";
+    logout.style.display = "none";
+    
+    username.value = '';
+    password.value = '';
+
+    // Set user text on front to blank
+    var user = document.getElementById("user");
+    user.innerText = "";
+    
+    // Delete saved auth
+    widget.setPreferenceForKey(null, widget.identifier + "-auth");
+    
+    // Display message
+    backstatus.innerText = "Logged Out";
+    setTimeout('backstatus.innerText \= \"\";', 4000);
 }
  
 //
@@ -221,7 +253,7 @@ document.body.addEventListener("offline", function () {
 function setLang(event)
 {
     var lang = language.object.getValue();
-    if (lang !== '') {
+    if (lang !== '' || lang !== 'Lang') {
         widget.setPreferenceForKey(lang, widget.identifier + "-ext");
         console.log("Extension changed to " + lang);
     }
@@ -289,6 +321,25 @@ function sync()
 //
 function showBack(event)
 {
+    var logout = document.getElementById("logout");
+    var login  = document.getElementById("login");
+
+    var username = document.getElementById("username");    
+    var password = document.getElementById("password");
+        
+    var header = widget.preferenceForKey(widget.identifier + "-auth");
+    if (typeof header == "undefined") {
+        logout.style.display = "none";
+        login.style.display = "inherit";
+        
+        username.value = '';
+        password.value = '';
+    }
+    else {
+        logout.style.display = "inherit";
+        login.style.display = "none";     
+    }
+
     unameReq.style.display = "none";
     pwordReq.style.display = "none";
     

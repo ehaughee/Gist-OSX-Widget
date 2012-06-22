@@ -8,14 +8,16 @@ var dashcodePartSpecs = {
     "backstatus": { "view": "DC.Text" },
     "done": { "creationFunction": "CreateGlassButton", "onclick": "showFront", "text": "Done" },
     "info": { "backgroundStyle": "white", "creationFunction": "CreateInfoButton", "foregroundStyle": "black", "frontID": "front", "onclick": "showBack" },
-    "language": { "creationFunction": "CreatePopupButton", "leftImageWidth": 5, "name": "langSelect", "onchange": "setLang", "options": ["Lang", ["Ruby", ".rb"], ["Python", ".py"], ["PHP", ".php"], ["HTML", ".html"], ["JavaScript", ".js"], ["C++", ".cpp"], ["C", ".c"]], "rightImageWidth": 16 },
+    "language": { "creationFunction": "CreatePopupButton", "leftImageWidth": 5, "name": "langSelect", "onchange": "setLang", "options": ["Lang", ["Ruby", ".rb"], ["Python", ".py"], ["PHP", ".php"], ["Java", ".java"], ["HTML", ".html"], ["JavaScript", ".js"], ["C++", ".cpp"], ["C", ".c"], ["HAML", ".haml"], ["CoffeeScript", ".coffee"], ["Perl", ".pl"], ["Go", ".go"], ["C#", ".cs"], ["ERB", ".erb"], ["CSS", ".css"]], "rightImageWidth": 16 },
     "login": { "creationFunction": "CreateButton", "leftImageWidth": 5, "onclick": "authorize", "rightImageWidth": 5, "text": "Login" },
+    "logout": { "creationFunction": "CreateButton", "leftImageWidth": 5, "onclick": "deauthorize", "rightImageWidth": 5, "text": "Logout" },
     "pwordReq": { "text": "* Required", "view": "DC.Text" },
     "send": { "creationFunction": "CreateButton", "leftImageWidth": 5, "onclick": "send", "rightImageWidth": 5, "text": "Create Gist" },
     "statustext": { "view": "DC.Text" },
     "text1": { "text": "Username", "view": "DC.Text" },
     "text2": { "text": "Password", "view": "DC.Text" },
-    "unameReq": { "text": "* Required", "view": "DC.Text" }
+    "unameReq": { "text": "* Required", "view": "DC.Text" },
+    "user": { "view": "DC.Text" }
 };
 
 

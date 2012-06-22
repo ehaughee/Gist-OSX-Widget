@@ -266,3 +266,39 @@ body {
 .selected #backstatus {
     color: white;
 }
+
+#logout {
+    font-family: HelveticaNeue-Bold;
+    font-size: 12px;
+    text-align: center;
+    cursor: default;
+    -khtml-user-select: none;
+    position: absolute;
+    right: auto;
+    margin-top: 0px;
+    top: 81px;
+    left: 101px;
+    width: 102px;
+    bottom: 21px;
+    height: auto;
+}
+
+#user {
+    font-size: 13px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    left: 23px;
+    top: 20px;
+    min-height: 16px;
+    width: 190px;
+    bottom: 89px;
+    height: auto;
+    white-space: nowrap;
+}
+
+.selected #user {
+    color: white;
+}
