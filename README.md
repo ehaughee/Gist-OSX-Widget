@@ -15,8 +15,9 @@ This is an OS X widget that will take the contents of your clipboard, create a g
 
 ### Anonymous gist Usage
 * Copy some text
+* Select your syntax from the "Lang" dropdown if you wish
 * On the widget (in your dashboard) click Create Gist
-* You should see some status messages that ends with "Link in clipboard"
+* Wait until you see "Link in clipboard"
 * Paste the link
 
 ### Authenticated gist Usage
