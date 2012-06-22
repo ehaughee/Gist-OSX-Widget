@@ -1,10 +1,12 @@
-# Gist OS X Widget (or Gist Paster) Alpha v0.2.1
+# Gist OS X Widget (or Gist Paster) Alpha v0.3
 This is an OS X widget that will take the contents of your clipboard, create a gist, and then place the relevant gist url in your clipboard.
 
 ![Screenshot](http://f.cl.ly/items/0F42063X0s2z1D3z042D/Screen%20Shot%202012-06-19%20at%2011.04.57%20AM.png)
 
 
 ![Screenshot 2](http://f.cl.ly/items/1p35132i3d09133v0K24/Screen%20Shot%202012-06-19%20at%2011.05.46%20AM.png)
+
+![Screenshot 3](http://f.cl.ly/items/2j1C3J0c2u393E2V3i3s/Screen%20Shot%202012-06-21%20at%209.53.10%20PM.png)
 
 [Download](https://github.com/ehaughee/Gist-OSX-Widget/downloads)
 
@@ -33,6 +35,10 @@ This is an OS X widget that will take the contents of your clipboard, create a g
 * Maybe add the option to set a filename and description, but probably not
 
 ## Change List
+
+### v0.3
+* [feature] Added logout functionality
+* [feature] Added Java, C#, HAML, ERB, CoffeeScript, Perl, Go, and CSS to the Lang selector
 
 ### v0.2.1
 * [bugfix] The login function now tells you success or failure like it is supposed to.
