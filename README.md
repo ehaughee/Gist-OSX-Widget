@@ -30,10 +30,6 @@ This is an OS X widget that will take the contents of your clipboard, create a g
 * Wait until you see "Link in clipboard"
 * Paste the link
 
-### Todo
-* More syntax language selections
-* Maybe add the option to set a filename and description, but probably not
-
 ## Change List
 
 ### v0.3
@@ -50,6 +46,9 @@ This is an OS X widget that will take the contents of your clipboard, create a g
 * [feature] Ability to select from Ruby, Python, PHP, HTML syntaxes
  * Super easy to add more languages, just haven't yet.
 
+## Todo
+* More syntax language selections
+* Maybe add the option to set a filename and description, but probably not
 
 ## Attribution
-The octocat icon was taken without permission from: http://ericjankowski.com/index.php.  I plan on asking permission but in the mean time I am providing a source since this is a public repository.  Maybe this should go in TODO.
+The octocat icon was taken without permission from: http://ericjankowski.com/index.php.  I plan on asking permission but in the mean time I am providing a source since this is a public repository.  Maybe this should go in TODO.  And of courrse the Octocat logo is Github's.
