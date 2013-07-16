@@ -4,7 +4,5 @@
  however it is recommended to first turn off the Dashcode 
  code generator otherwise the changes will be lost.
  */
-var localizedStrings = {
-    "Hello, World!": "Hello, World!",
-    "Done": "Done"
-};
+var localizedStrings = {};
+

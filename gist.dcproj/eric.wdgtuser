@@ -5,7 +5,7 @@
 	<key>Breakpoints</key>
 	<dict/>
 	<key>CYLastWindowPosition</key>
-	<string>{554, 304}</string>
+	<string>{472, 589}</string>
 	<key>ContentSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -16,12 +16,12 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {790, 145}}</string>
-			<string>{{0, 155}, {790, 517}}</string>
+			<string>{{0, 0}, {1028.5, 225}}</string>
+			<string>{{0, 235}, {1028.5, 437}}</string>
 		</array>
 	</dict>
 	<key>ContentViewType</key>
-	<integer>2</integer>
+	<integer>5</integer>
 	<key>DeploymentOptions</key>
 	<dict>
 		<key>Destination</key>
@@ -33,7 +33,7 @@
 		<key>Save</key>
 		<true/>
 		<key>SavePath</key>
-		<string>/Users/eric/Documents/Projects/Gist Widget/github resources</string>
+		<string>/Users/Eric/Projects/Gist-OSX-Widget</string>
 		<key>WidgetCompatibilityTag</key>
 		<integer>0</integer>
 		<key>WidgetDeployName</key>
@@ -46,31 +46,31 @@
 	<key>Design time language</key>
 	<string>en.lproj</string>
 	<key>EvaluatorFrame</key>
-	<string>536 544 494 234 0 0 1280 778 </string>
+	<string>645 644 494 234 0 0 1440 878 </string>
 	<key>MainSplitViewGeometry</key>
 	<dict>
 		<key>_indexOfCollapsedView</key>
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {170, 693}}</string>
-			<string>{{171, 0}, {791, 693}}</string>
+			<string>{{0, 0}, {216.5, 693}}</string>
+			<string>{{217.5, 0}, {1029.5, 693}}</string>
 		</array>
 	</dict>
 	<key>MainWindowFrame</key>
-	<string>1 64 961 714 0 0 1280 778 </string>
+	<string>2 164 1246 714 0 0 1440 878 </string>
 	<key>NavigatorSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
-		<integer>5</integer>
+		<integer>9</integer>
 		<key>SplitViewConfig</key>
 		<integer>3</integer>
 		<key>_indexOfCollapsedView</key>
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {172, 318}}</string>
-			<string>{{0, 328}, {172, 344}}</string>
+			<string>{{0, 0}, {218.5, 318}}</string>
+			<string>{{0, 328}, {218.5, 344}}</string>
 		</array>
 	</dict>
 	<key>Widget</key>
@@ -92,14 +92,16 @@
 		<key>Objects view last selections</key>
 		<array>
 			<array>
-				<integer>2</integer>
+				<integer>5</integer>
 			</array>
 		</array>
 		<key>Opened Steps</key>
-		<array/>
+		<array>
+			<integer>5</integer>
+		</array>
 		<key>Visible StackLayout Views</key>
 		<array>
-			<string>back</string>
+			<string>front</string>
 		</array>
 	</dict>
 </dict>
