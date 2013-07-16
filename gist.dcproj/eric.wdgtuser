@@ -58,11 +58,11 @@
 		</array>
 	</dict>
 	<key>MainWindowFrame</key>
-	<string>2 164 1246 714 0 0 1440 878 </string>
+	<string>43 161 1246 714 0 0 1440 878 </string>
 	<key>NavigatorSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
-		<integer>9</integer>
+		<integer>5</integer>
 		<key>SplitViewConfig</key>
 		<integer>3</integer>
 		<key>_indexOfCollapsedView</key>
