@@ -20,17 +20,6 @@ body {
     height: auto;
 }
 
-#info {
-    position: absolute;
-    right: 15px;
-    bottom: 18px;
-    width: 13px;
-    height: 13px;
-    left: 276px;
-    top: 95px;
-    opacity: 1;
-}
-
 #back {
     display: none;
 }
@@ -301,4 +290,20 @@ body {
 
 .selected #user {
     color: white;
+}
+
+#button {
+    font-family: HelveticaNeue-Bold;
+    font-size: 12px;
+    text-align: center;
+    width: 67px;
+    cursor: default;
+    -khtml-user-select: none;
+    height: auto;
+    position: absolute;
+    left: 23px;
+    top: 18px;
+    right: auto;
+    margin-top: 0px;
+    bottom: 88px;
 }
